@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="61px" viewBox="0 0 83 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/scanner@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="1116.07972%" y2="901.834543%" id="linearGradient-1">
+            <stop stop-color="#0068F2" offset="0%"></stop>
+            <stop stop-color="#0F4098" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gioithieu_Huongdansudung" transform="translate(-1126.000000, -568.000000)">
+            <g id="thanhtoantaiquay" transform="translate(0.000000, 220.000000)">
+                <g id="ungdungdienthoai" transform="translate(734.000000, 115.000000)">
+                    <g id="process" transform="translate(1.000000, 227.000000)">
+                        <g id="icon/scanner" transform="translate(391.000000, 7.000000)">
+                            <g>
+                                <polyline id="Path-4" stroke="url(#linearGradient-1)" stroke-width="2" points="8.8971561 0.024787659 1.01513099 0.024787659 1.01513099 6.9579467"></polyline>
+                                <polyline id="Path-4-Copy-2" stroke="url(#linearGradient-1)" stroke-width="2" points="73.8 0 81.6820251 0 81.6820251 6.93315904"></polyline>
+                                <polyline id="Path-4-Copy-3" stroke="url(#linearGradient-1)" stroke-width="2" transform="translate(77.741013, 55.345890) scale(1, -1) translate(-77.741013, -55.345890) " points="73.8 51.8793103 81.6820251 51.8793103 81.6820251 58.8124694"></polyline>
+                                <path d="M12.1239899,14.3097669 L12.1239899,24.4838525" id="Line" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M80.9760063,29.1609195 L1.02393299,29.1609195" id="Line-Copy-17" stroke="#FB7020" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M19.475,14.2413793 L19.475,24.6179368" id="Line-Copy" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M19.475,33.9358521 L19.475,40.8690112" id="Line-Copy-18" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M26.65,14.2413793 L26.65,24.6179368" id="Line-Copy-2" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M26.65,33.9358521 L26.65,40.8690112" id="Line-Copy-19" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M32.8,14.2413793 L32.8,24.6179368" id="Line-Copy-3" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M32.8,33.9358521 L32.8,40.8690112" id="Line-Copy-20" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M41,14.2413793 L41,24.6179368" id="Line-Copy-4" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M41,33.9358521 L41,40.8690112" id="Line-Copy-21" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M48.175,14.2413793 L48.175,24.6179368" id="Line-Copy-5" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M48.175,33.9358521 L48.175,40.8690112" id="Line-Copy-22" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M55.35,14.2413793 L55.35,24.6179368" id="Line-Copy-6" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M55.35,33.9358521 L55.35,40.8690112" id="Line-Copy-23" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M62.525,14.2413793 L62.525,24.6179368" id="Line-Copy-7" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M62.525,33.9358521 L62.525,40.8690112" id="Line-Copy-24" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M69.7,14.2413793 L69.7,24.6179368" id="Line-Copy-8" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M69.7,33.9358521 L69.7,40.8690112" id="Line-Copy-25" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M19.2989899,44.7586207 L19.2989899,45.9385678" id="Line-Copy-16" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M12.1239899,33.5689655 L12.1239899,45.9385678" id="Line-Copy-27" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M26.4739899,44.7586207 L26.4739899,45.9385678" id="Line-Copy-15" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M32.6239899,44.7586207 L32.6239899,45.9385678" id="Line-Copy-14" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M40.8239899,44.7586207 L40.8239899,45.9385678" id="Line-Copy-13" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M47.9989899,44.7586207 L47.9989899,45.9385678" id="Line-Copy-12" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M55.1739899,44.7586207 L55.1739899,45.9385678" id="Line-Copy-11" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M62.3489899,44.7586207 L62.3489899,45.9385678" id="Line-Copy-10" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M69.5239899,44.7586207 L69.5239899,45.9385678" id="Line-Copy-9" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square"></path>
+                                <polyline id="Path-4-Copy" stroke="url(#linearGradient-1)" stroke-width="2" points="8.90702511 58.8124694 1.025 58.8124694 1.025 51.8793103"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

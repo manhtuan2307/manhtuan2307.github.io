@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="69px" viewBox="0 0 65 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/form@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-54.3677052%" y1="-60.867074%" x2="356.935635%" y2="398.518661%" id="linearGradient-1">
+            <stop stop-color="#0068F2" offset="0%"></stop>
+            <stop stop-color="#0F4098" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-57.3519982%" y1="-30.7668331%" x2="100%" y2="143.717843%" id="linearGradient-2">
+            <stop stop-color="#0068F2" offset="0%"></stop>
+            <stop stop-color="#0F4098" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gioithieu_Huongdanmothe" transform="translate(-746.000000, -300.000000)">
+            <g id="dangkyoffline" transform="translate(114.000000, 250.000000)">
+                <g id="process" transform="translate(593.000000, 31.000000)">
+                    <g id="icon/form" transform="translate(40.000000, 20.000000)">
+                        <g>
+                            <polygon id="Stroke-5" stroke="#FB7020" stroke-width="2" points="5.88 20.9349717 21.7356562 20.9349717 21.7356562 5.66339623 5.88 5.66339623"></polygon>
+                            <polyline id="Stroke-6" stroke="#FB7020" stroke-width="2" points="17.26305 9.97187547 17.26305 16.6269981 10.3527375 16.6269981 10.3527375 9.97187547"></polyline>
+                            <path d="M4.96958438,25.9150943 L41.5725844,25.9150943" id="Stroke-7" stroke="url(#linearGradient-1)" stroke-width="2"></path>
+                            <path d="M4.96958438,31.6037736 L41.5725844,31.6037736" id="Stroke-8" stroke="url(#linearGradient-1)" stroke-width="2"></path>
+                            <path d="M4.96958438,37.2924528 L41.5725844,37.2924528" id="Stroke-9" stroke="url(#linearGradient-1)" stroke-width="2"></path>
+                            <path d="M26.7376594,5.05660377 L41.5728469,5.05660377" id="Stroke-10" stroke="url(#linearGradient-1)" stroke-width="2"></path>
+                            <path d="M26.7376594,10.745283 L41.5728469,10.745283" id="Stroke-11" stroke="url(#linearGradient-1)" stroke-width="2"></path>
+                            <path d="M4.96958438,42.9811321 L41.5725844,42.9811321" id="Stroke-12" stroke="url(#linearGradient-1)" stroke-width="2"></path>
+                            <path d="M41.5727813,55.6226415 L28.91175,55.6226415" id="Stroke-13" stroke="#FB7020" stroke-width="2"></path>
+                            <polyline id="Stroke-14" stroke="#FB7020" stroke-width="2" points="40.5464719 48.359083 40.5464719 52.0491396 29.9375344 52.0491396 29.9375344 48.359083"></polyline>
+                            <polygon id="Stroke-15" stroke="url(#linearGradient-2)" stroke-width="2" points="58.5965625 56.1618019 62.5622813 56.1618019 62.5622813 33.1580472 58.5965625 33.1580472"></polygon>
+                            <path d="M60.4422,62.7826028 L60.7165125,62.7826028 C61.736325,62.7826028 62.5625438,61.9868198 62.5625438,61.0045745 L62.5625438,56.1616123 L58.5961688,56.1616123 L58.5961688,61.0045745 C58.5961688,61.9868198 59.4230438,62.7826028 60.4422,62.7826028 Z" id="Stroke-17" stroke="url(#linearGradient-2)" stroke-width="2"></path>
+                            <path d="M60.375,62.7826028 L60.375,66.6319425" id="Stroke-18" stroke="url(#linearGradient-2)" stroke-width="2"></path>
+                            <path d="M60.7168406,29.3384783 L60.4425281,29.3384783 C59.4227156,29.3384783 58.5964969,30.1342613 58.5964969,31.1165066 L58.5964969,33.1581104 L62.5628719,33.1581104 L62.5628719,31.1165066 C62.5628719,30.1342613 61.7359969,29.3384783 60.7168406,29.3384783 Z" id="Stroke-19" stroke="url(#linearGradient-2)" stroke-width="2"></path>
+                            <polygon id="Stroke-1" stroke="url(#linearGradient-1)" stroke-width="2" points="0.328125 61.2847736 46.3903125 61.2847736 46.3903125 0.316037736 0.328125 0.316037736"></polygon>
+                            <polyline id="Stroke-3" stroke="url(#linearGradient-1)" stroke-width="2" points="46.3908375 5.66371226 51.9427125 5.66371226 51.9427125 66.6324481 5.880525 66.6324481 5.880525 61.2844575"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

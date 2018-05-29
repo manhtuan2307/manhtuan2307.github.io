@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Người dùng - đăng ký</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=vietnamese" rel="stylesheet"> 
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> 
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/swiper/dist/css/swiper.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/animate.css/animate.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/libary/OwlCarousel/css/owl.carousel.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="frm_signIn" style="background-image: url(./assets/images2/dangky/1.jpg);">
+            <div class="img__logo">
+                <a href="index.html"><img src="./assets/images2/home/vnplogo.png" /></a>
+            </div>
+            <div class="frm_signIn--link">
+                <a href="nguoi-dung--dangky-b1.html">Bạn đã có tài khoản?</a>
+                <a href="nguoi-dung--dang-nhap.html" class="active">Đăng nhập ngay<i class="fa fa-sign-out" aria-hidden="true"></i></a>
+            </div>
+            <div class="page__link">
+                <a href="lien-he.html">Liên hệ</a>
+                <span>|</span>
+                <a href="FAQS.html">FAQs</a>
+                <span>|</span>
+                <a href="#">VIE</a>
+            </div>
+            <div class="pageRegister clearfix">
+            
+                <div class="pageRegister__inner">
+                    <div id="js--pageRegister__slide" class="swiper-container pageRegister__steps">
+                        <div class="swiper-wrapper js--pageRegister__slide__wrapper">
+                            <div class="swiper-slide pageRegister__step">
+                                <div class="frm__signUp">
+<h3 class="frm__title">Tham gia VINAPHONE PLUS</h3>
+<p class="frm__note">Gia nhập cộng đồng và tận hưởng ưu đãi ngay hôm nay.</p>
+<form class="frm__signUp--content">
+    <div class="form-group frm__group">
+        <label class="frm__label">Họ tên <span>*</span></label>
+        <input type="text" class="form-control frm__input check--null" placeholder="nhập họ tên của bạn">
+        <!-- =====class="check--null" khi input = " "====== -->
+        <div class="msg" style="display: block">
+            Bạn cần nhập đủ thông tin
+        </div>
+    </div>
+    <div class="form-group frm__group">
+        <label class="frm__label">Tên đăng nhập</label>
+        <input type="text" class="form-control frm__input" placeholder="user1; usernamr.001">
+        <div class="msg">
+            Bạn cần nhập đủ thông tin
+        </div>
+    </div>
+    <div class="form-group frm__group">
+        <label class="frm__label">Mật khẩu <span>*</span></label>
+        <input type="password" class="form-control frm__input" placeholder="nhập mật khẩu của bạn">
+        <div class="msg">
+            Bạn cần nhập đủ thông tin
+        </div>
+    </div>
+    <div class="form-group frm__group">
+        <label class="frm__label">Xác nhận mật khẩu <span>*</span></label>
+        <input type="password" class="form-control frm__input" placeholder="8 ký tự trở lên, ít nhất 1 ký tự đặc biệt">
+        <div class="msg">
+            Bạn cần nhập đủ thông tin
+        </div>
+    </div>
+    <a href="#" class="btn btn-default btn__submit" onclick="pageRegister__slide.slideTo(1, 700); pageRegister__slide.update();">tiếp theo<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+</form>
+</div>
+                            </div>
+                            <div class="swiper-slide pageRegister__step">
+                                <div class="frm__signUp">
+    <div class="back__form">
+        <a href="#" onclick="pageRegister__slide.slideTo(0, 700)"><span><i class="fa fa-arrow-left" aria-hidden="true"></i></span>Trở về</a>
+    </div>
+    <form class="frm__signUp--content frm__signUp--contentb2">
+        <div class="form-group frm__group">
+            <label class="frm__label">email <span>*</span></label>
+            <input type="email" class="form-control frm__input" placeholder="nhập email của bạn">
+            <!-- =====class="check--null" khi input = " "====== -->
+            <div class="msg" style="display: block">
+                Bạn cần nhập đủ thông tin
+            </div>
+        </div>
+        <div class="form-group frm__group frm__half">
+            <label class="frm__label">số điện thoại <span>*</span></label>
+            <input type="text" class="form-control frm__input " placeholder="0888 xx xx xx">
+            <div class="msg">
+                Bạn cần nhập đủ thông tin
+            </div>
+        </div>
+        <div class="form-group frm__group frm__half">
+            <label class="frm__label">ngày sinh <span>*</span></label>
+            <input type="text" class="form-control frm__input" placeholder="mm/dd/yyyy">
+            <span class="calender"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+            <div class="msg">
+                Bạn cần nhập đủ thông tin
+            </div>
+        </div>
+        <div class="form-group frm__group">
+            <label class="frm__label">địa chỉ <span>*</span></label>
+            <input type="text" class="form-control frm__input" placeholder="">
+            <div class="msg">
+                Bạn cần nhập đủ thông tin
+            </div>
+        </div>
+        <div class="form-group frm__group">
+            <label class="radio-inline frm__label">
+                giới tính
+            </label>
+            <div class="radio-inline frm__signUp--check">
+                <input type="radio" name="inlineRadioOptions" value="option1">
+                <label class=" frm__radio">
+                    <span></span> Nam
+                </label>
+            </div>
+            <div class="radio-inline frm__signUp--check">
+                <input type="radio" name="inlineRadioOptions" value="option2">
+                <label class=" frm__radio">
+                    <span></span> Nữ
+                </label>
+            </div>
+        </div>
+        <div class="form-group frm__group">
+            <label class="frm__label">số điện thoại người giới thiệu</label>
+            <input type="text" class="form-control frm__input" placeholder="">
+            <div class="msg">
+                Bạn cần nhập đủ thông tin
+            </div>
+        </div>
+        <div class="checkbox frm__signUp--check">
+            <input type="checkbox" value="" id="check">
+            <label for="check">
+                <span></span> Tôi đồng ý với các <strong> quy định và điều khoản </strong> sử dụng của VINAPHONE PLUS.
+            </label>
+        </div>
+        <a href="#" class="btn btn-default btn__submit btn-next" onclick="pageRegister__slide.slideTo(2, 700); pageRegister__slide.update();">tiếp theo<i class="fa fa-arrow-right " aria-hidden="true "></i></a>
+    </form>
+</div>
+                            </div>
+                            <div class="swiper-slide pageRegister__step ">
+                                <div class="frm__signUp frm__signUp--b3 ">
+    <div class="back__form ">
+        <a href="# " class="btn-prev " onclick="pageRegister__slide.slideTo(1, 700) "><span><i class="fa fa-arrow-left " aria-hidden="true "></i></span>Trở về</a>
+    </div>
+    <h3 class="frm__title ">Tham gia VINAPHONE PLUS</h3>
+    <p class="frm__note ">Gia nhập cộng đồng và tận hưởng ưu đãi ngay hôm nay.</p>
+    <p class="frm__description ">
+        Vui lòng nhập dãy OTP vừa được gửi đến số điện thoại đăng ký VINAPHONE PLUS của bạn để xác nhận đăng ký.
+    </p>
+    <form class="frm__signUp--content frm__signUp--contentb3 "> 
+        <div class="js-otp-wrap frm__group--inline">
+    <input type="text" class="input-otp form-control frm_input--item" placeholder="" value="1" maxlength="1">
+    <input type="text" class="input-otp form-control frm_input--item" placeholder="" value="9" maxlength="1">
+    <input type="text" class="input-otp form-control frm_input--item" placeholder="" value="7" maxlength="1">
+    <input type="text" class="input-otp form-control frm_input--item" placeholder="" maxlength="1">
+    <input type="text" class="input-otp form-control frm_input--item" placeholder="" maxlength="1">
+    <input type="text" class="input-otp form-control frm_input--item" placeholder="" maxlength="1">
+</div>  
+        <div class="forget__pass--notification ">
+            Chưa nhận được OPT? <span><a href="# ">Gửi lại mã mới</a></span>
+        </div>
+        <button type="submit " class="btn btn-default btn__submit ">hoàn tất<i class="fa fa-credit-card-alt " aria-hidden="true "></i></button>
+    </form>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./assets/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/swiper/dist/js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="./assets/libary/OwlCarousel/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/wow/dist/wow.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="./assets/scripts/main.js"></script>
+    <script type="text/javascript ">
+        var pageRegister__slide = new Swiper('#js--pageRegister__slide', {
+            followFinger: false,
+            simulateTouch: false,
+            effect: 'fade',
+            onlyExternal: true,
+            autoHeight: true
+        });
+
+        jQuery(document).ready(function($) {
+            $(".btn-next ").click(function() {
+                $('.pageRegister__slide').addClass('pageRegister__active');
+                pageRegister__slide.update();
+            });
+            $(".btn-prev ").click(function() {
+                $('.pageRegister__slide').removeClass('pageRegister__active');
+                pageRegister__slide.update();
+            });
+            $(".frm__input").focus(function() {
+                $(".msg").css("display", "none");
+                $(this).removeClass('check--null');
+            });
+        });
+    </script>
+</body>
+
+</html>

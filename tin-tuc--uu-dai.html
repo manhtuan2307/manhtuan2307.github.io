@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ưu đãi - Quà tặng</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=vietnamese" rel="stylesheet"> 
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> 
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/swiper/dist/css/swiper.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/animate.css/animate.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/libary/OwlCarousel/css/owl.carousel.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+</head>
+
+<body>
+    <div class="header">
+    <ul class="menu-one">
+        <li class="sub_navigation--user">
+            <a id="user-head--toggle" href="javascript:void(0);">
+                <div class="name__user">Xin chào, <span>Hoàng</span></div>
+                <div class="avatar__user">
+                    <img src="./assets/images/home/profile-picture.png" />
+                    <span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                </div>
+            </a>
+            <ul id="user-head" class="user-head" style="display: none">
+                <li>
+                    <a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">
+                        <span>Thông tin hội viên</span>
+                        <i class="fa fa-info-circle"></i>
+                    </a>
+                </li>
+                <!-- <li> -->
+                    <!-- <a href="#"> -->
+                        <!-- <span>Chỉnh sửa thông tin</span> -->
+                        <!-- <i class="fa fa-edit"></i> -->
+                    <!-- </a> -->
+                <!-- </li> -->
+				<!--<li>
+                    <a href="#">
+                        <span>Thanh toán</span>
+                        <i class="fa fa-edit"></i>
+                    </a>
+                </li>-->
+				<li>
+                    <a href="#">
+                        <span>Đổi điểm Vpoint</span>
+                        <i class="fa fa-edit"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Đăng xuất</span>
+                        <i class="fa fa-sign-in"></i>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="lien-he.html">Liên hệ</a></li>
+        <li><a href="FAQS.html">FAQs</a></li>
+        <li><a href="#">VIE</a></li>
+    </ul>
+    <div class="deskop">
+        <ul class="menu-two">
+            <li class="left">
+                <a href="index.html">
+                    <img src="./assets/images2/home/vnplogo.png" />
+                </a>
+            </li>
+            <li class="right">
+                <ul class="main-menu">
+                    <!--<li><a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">VNP PLUS của tôi</a></li>-->
+					<li class="is--active"><a href="tin-tuc--uu-dai.html">Quà tặng</a></li>
+					<li><a href="tin-tuc--uu-dai-doi-diem.html">Đổi điểm</a></li>
+					<li><a href="tin-tuc--uu-dai-uu-dai.html">Ưu đãi</a></li>
+					<li><a href="https://v-point.vn">Vpoint</a></li>
+                    <li><a href="gioi-thieu--ve-the-vpoint.html">Giới thiệu</a></li>
+                    <li><a href="tin-tuc--vpoint.html">Tin tức</a></li>
+                    <!-- <li><a href="doi-tac.html">Đối tác</a></li> -->
+                    <!-- <li><a href="#">VNP Plus</a></li> -->
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="mobile">
+        <div class="top">
+            <div class="logo">
+                <a href="index.html"><img src="./assets/images2/home/vnplogo.png" /> </a>
+            </div>
+            <div class="humbuger">
+                <h3>Menu</h3>
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+        <ul class="main-menu">
+<!--            <li><a href="#">VNP PLUS của tôi</a></li>
+-->         <li><a href="tin-tuc--uu-dai.html">Quà tặng</a></li>    
+			<li><a href="tin-tuc--uu-dai-doi-diem.html">Đổi điểm</a></li>    
+			<li><a href="tin-tuc--uu-dai-uu-dai.html">Ưu đãi</a></li>    
+			<li><a href="https://v-point.vn">Vpoint</a></li>       
+			<li><a href="#">Giới thiệu</a></li>
+<!--            <li><a href="#">Ưu đãi</a></li>
+-->            <li><a href="#">Tin tức</a></li>
+         <!--   <li><a href="doi-tac.html">Đối tác</a></li>
+            <li><a href="#">VNP Plus</a></li>-->
+            <li class="addtend"><a href="#"><i class="fa fa-credit-card" aria-hidden="true"></i>Đăng ký</a></li>
+            <li class="login"><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Đăng nhập</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="main">
+        <div class="page__banner" style="background-image: url(./assets/images/home/background2.png)">
+            <div class="page__banner--link">
+                <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Trang chủ</a>
+                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                <a href="tin-tuc--uu-dai.html">Quà tặng</a>
+            </div>
+            <ul class="tab_menu--child">
+                <span class="js-line-active"></span>
+				<li class="is--active"><a href="tin-tuc--uu-dai.html">Quà tặng tải APP</a></li>
+                <li class="is--active2"><a href="tin-tuc--uu-dai.html">Quà tặng từ VinaPhone</a></li>
+                <li class="is--active2"><a href="tin-tuc--uu-dai.html">Quà tặng sinh nhật</a></li>
+            </ul>
+            <!-- =======mobile========= -->
+            <div class="tab__item-mobile">
+                <div class="tab-category">
+                    Quà tặng
+                </div>
+                <ul class="select-tab">
+                    <li>
+                        <a href="tin-tuc--uu-dai.html">Quà tặng tải APP</a>
+                    </li>
+					<li>
+                        <a href="tin-tuc--vpoint.html">Quà tặng từ Vinaphone</a>
+                    </li>
+                    <li>
+                        <a href="tin-tuc--vpoint.html">Quà tặng sinh nhật</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- ==end== -->
+        </div>
+        <div class="news__search">
+            <form class="form-inline frm_search">
+                <div class="form-group">
+                    <input type="text" class="form-control frm__input-search" placeholder="Nhập tìm kiếm ở đây...">
+                </div>
+                <span>|</span>
+                <button type="submit" class="btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+            <!--<form class="frm__quickSearch">
+				<div class="form-group frm__quickSearch--item">
+                    <label class="control-label quickSearch__label">Loại ưu đãi</label>
+                    <div class="quickSearch__select">
+                        <select class="js__select__menu form-control select-box">
+                            <option>Lựa chọn</option>
+							<option>Quà tặng</option>
+                            <option>Đổi điểm</option>                            
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group frm__quickSearch--item">
+                    <label class="control-label quickSearch__label">Ưu đãi</label>
+                    <div class="quickSearch__select">
+                        <select class="js__select__menu form-control select-box">
+                            <option>Lựa chọn</option>
+							<option>Quà tặng tải APP</option>
+                            <option>Quà tặng từ Vinaphone</option>
+                            <option>Quà tặng sinh nhật</option>
+                            <option>Đổi dịch vụ</option>
+                            <option>Đổi quà tặng</option>
+                        </select>
+                    </div>
+                </div>
+            </form>-->
+        </div>
+        <div class="news__vpoint">
+            <div class="new__favorable--focus">
+                <div class="new__favorable--left">
+                    <a href="tin-tuc--chi-tiet--uu-dai.html" style="background-image: url('./assets/images/tin-tuc/1522313969463.jpg.png');">
+                    	<span></span>                   
+                        <img src="./assets/images/tin-tuc/1522313969463.jpg.png" />
+                    </a>
+                </div>
+                <div class="new__favorable--right">
+                    <div class="new__favorable--rightItem">
+                        <a href="tin-tuc--chi-tiet--uu-dai.html" style="background-image: url('./assets/images/tin-tuc/1511941808925.png');">
+                        	<span></span>
+                            <img src="./assets/images/tin-tuc/1511941808925.png" />
+                        </a>
+                    </div>
+                    <div class="new__favorable--rightItem">
+                        <span></span>
+                        <a href="tin-tuc--chi-tiet--uu-dai.html" style="background-image: url('./assets/images/tin-tuc/1508935795426.png');">
+                        	<span></span>
+                            <img src="./assets/images/tin-tuc/1508935795426.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="news__vpoint--list">
+                
+                <div class="news__favorable--item">
+                    <div class="news__favorable--itemImg">
+                        <a href="tin-tuc--chi-tiet--uu-dai.html" style="background-image: url('./assets/images/home/favorable-image.png');">
+                            <img src="./assets/images/home/v1.png" />
+                        </a>
+                        <div class="news__favorable--text">
+                            <ul class="left">
+                                <li class="green"><a href="#">Mua sắm</a></li>
+                                <li class="white"><a href="#">AEON Mall</a></li>
+                            </ul>
+                            <div class="right">
+                                <h3>Tích điểm</h3>
+                                <h3>10<span>%</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__vpoint--itemContent">
+                        <div class="vpoint__item--title">
+                            <a href="tin-tuc--chi-tiet--uu-dai.html">
+                                Ưu đãi không giới hạn từ dịch vụ Vpoint cho Hội viên VinaPhone Plus
+                            </a>
+                        </div>
+                        <div class="vpoint__item--shortContent">
+                            Ưu đãi không giới hạn từ dịch vụ Vpoint cho Hội viên VinaPhone Plus
+                        </div>
+                        <div class="vpoint__item--plus">
+                            <a href="#" class="btn__readMore">Chi tiết <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news__favorable--item">
+                    <div class="news__favorable--itemImg">
+                        <a href="tin-tuc--chi-tiet--uu-dai.html" style="background-image: url('./assets/images/home/favorable-image.png');">
+                            <img src="./assets/images/home/v1.png" />
+                        </a>
+                        <div class="news__favorable--text">
+                            <ul class="left">
+                                <li class="green"><a href="#">Mua sắm</a></li>
+                                <li class="white"><a href="#">AEON Mall</a></li>
+                            </ul>
+                            <div class="right">
+                                <h3>Tích điểm</h3>
+                                <h3>30<span>đ</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__vpoint--itemContent">
+                        <div class="vpoint__item--title">
+                            <a href="tin-tuc--chi-tiet--uu-dai.html">
+                                Những “điểm nhấn” trong chính sách CSKH năm 2018 của VinaPhone
+                            </a>
+                        </div>
+                        <div class="vpoint__item--shortContent">
+                            Triển khai chương trình tích điểm dành cho khách hàng cá nhân sử dụng các dịch vụ của VNPT trên toàn quốc, tham gia cộng đồng sử dụng dịch vụ thẻ
+                        </div>
+                        <div class="vpoint__item--plus">
+                            <a href="#" class="btn__readMore">Chi tiết <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news__favorable--item">
+                    <div class="news__favorable--itemImg">
+                        <a href="tin-tuc--chi-tiet--uu-dai.html" style="background-image: url('./assets/images/home/favorable-image.png');">
+                            <img src="./assets/images/home/v1.png" />
+                        </a>
+                        <div class="news__favorable--text">
+                            <ul class="left">
+                                <li class="green"><a href="#">Mua sắm</a></li>
+                                <li class="white"><a href="#">AEON Mall</a></li>
+                            </ul>
+                            <div class="right">
+								<img src="./assets/images/tin-tuc/index.png" />
+                                <!--<h3>Tích điểm</h3>
+                                <h3>10<span>%</span></h3>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__vpoint--itemContent">
+                        <div class="vpoint__item--title">
+                            <a href="tin-tuc--chi-tiet--uu-dai.html">
+                                Hội viên VinaPhone Plus hưởng trọn đặc quyền với thẻ Vpoint
+                            </a>
+                        </div>
+                        <div class="vpoint__item--shortContent">
+                            Chính thức tham gia vào cộng đồng sử dụng dịch vụ thẻ tích điểm đa năng Vpoint, giờ đây Hội viên VinaPhone Plus đã có cơ hội tận hưởng ưu đãi mua 
+                        </div>
+                        <div class="vpoint__item--plus">
+                            <a href="#" class="btn__readMore">Chi tiết <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news__favorable--item">
+                    <div class="news__favorable--itemImg">
+                        <a href="tin-tuc--chi-tiet--uu-dai.html" style="background-image: url('./assets/images/home/favorable-image.png');">
+                            <img src="./assets/images/home/v1.png" />
+                        </a>
+                        <div class="news__favorable--text">
+                            <ul class="left">
+                                <li class="green"><a href="#">Mua sắm</a></li>
+                                <li class="white"><a href="#">AEON Mall</a></li>
+                            </ul>
+                            <div class="right">
+                                <h3>Tích điểm</h3>
+                                <h3>10<span>%</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__vpoint--itemContent">
+                        <div class="vpoint__item--title">
+                            <a href="tin-tuc--chi-tiet--uu-dai.html">
+                                Giáng sinh an lành - Ngập tràn ưu đãi
+                            </a>
+                        </div>
+                        <div class="vpoint__item--shortContent">
+                            Tặng miễn phí dịch vụ xe đưa từ Trung tâm Hà Nội ra sân bay, tặng e-voucher giảm giá, giảm giá sâu khi sử dụng dịch vụ tại các đối tác liên kết trong lĩnh 
+                        </div>
+                        <div class="vpoint__item--plus">
+                            <a href="#" class="btn__readMore">Chi tiết <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news__favorable--item">
+                    <div class="news__favorable--itemImg">
+                        <a href="tin-tuc--chi-tiet--uu-dai.html" style="background-image: url('./assets/images/home/favorable-image.png');">
+                            <img src="./assets/images/home/v1.png" />
+                        </a>
+                        <div class="news__favorable--text">
+                            <ul class="left">
+                                <li class="green"><a href="#">Mua sắm</a></li>
+                                <li class="white"><a href="#">AEON Mall</a></li>
+                            </ul>
+                            <div class="right">
+                                <h3>Tích điểm</h3>
+                                <h3>10<span>%</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__vpoint--itemContent">
+                        <div class="vpoint__item--title">
+                            <a href="tin-tuc--chi-tiet--uu-dai.html">
+                                Chào mừng ngày Nhà giáo Việt Nam, VinaPhone Plus dành nhiều ưu đãi cho Hội viên
+                            </a>
+                        </div>
+                        <div class="vpoint__item--shortContent">
+                            Với ưu đãi quà tặng và e-voucher giảm giá từ những thương hiệu lớn thuộc các lĩnh vực thiết yếu của cuộc sống như: mua sắm, ẩm thực, giáo dục, giải trí…, Hội viên VinaPhone Plus ở mọi độ tuổi sẽ dễ dà
+
+                        </div>
+                        <div class="vpoint__item--plus">
+                            <a href="#" class="btn__readMore">Chi tiết <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news__favorable--item">
+                    <div class="news__favorable--itemImg">
+                        <a href="tin-tuc--chi-tiet--uu-dai.html" style="background-image: url('./assets/images/home/favorable-image.png');">
+                            <img src="./assets/images/home/v1.png" />
+                        </a>
+                        <div class="news__favorable--text">
+                            <ul class="left">
+                                <li class="green"><a href="#">Mua sắm</a></li>
+                                <li class="white"><a href="#">AEON Mall</a></li>
+                            </ul>
+                            <div class="right">
+                                <h3>Tích điểm</h3>
+                                <h3>10<span>%</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__vpoint--itemContent">
+                        <div class="vpoint__item--title">
+                            <a href="tin-tuc--chi-tiet--uu-dai.html">
+                                Tích điểm nhận ưu đãi từ chương trình VinaPhone Plus cho khách hàng là cá nhân sử dụng các dịch vụ của VNPT.
+                            </a>
+                        </div>
+                        <div class="vpoint__item--shortContent">
+                            Với cước sử dụng các dịch vụ: Internet, Truyền hình MyTV, điện thoại cố định…của VNPT  hàng tháng, khách hàng sẽ được tích điểm đổi quà, nâng hạng Hội viên chương trình VinaPhone Plus và t
+                        </div>
+                        <div class="vpoint__item--plus">
+                            <a href="#" class="btn__readMore">Chi tiết <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- ======panigation===== -->
+            <ul class="vpoint__panigation">
+    <li class="vpoint__panigation--number"><a href="#">Trang 1/3</a></li>
+    <li class="vpoint__panigation--item"><a href="#">1</a></li>
+    <li class="vpoint__panigation--item active"><a href="#">2</a></li>
+    <li class="vpoint__panigation--item"><a href="#">3</a></li>
+    <li class="vpoint__panigation--item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+</ul>
+        </div>
+    </div>
+    <div class="footer">
+    <div class="footer-bottom">
+        <div class="one">
+            <div class="logo">
+                <a href="#">
+                    <img src="./assets/images/home/logo-white.png" />
+                </a>
+            </div>
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="two">
+            <ul>
+                <li><a href="#">VNP PLUS của tôi</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Các đối tác</a></li>
+                <li><a href="#">VNP Plus</a></li>
+            </ul>
+        </div>
+        <div class="three">
+            <ul>
+                <li><a href="#">Chính sách Vpoint</a></li>
+                <li><a href="#">Điều khoản sử dụng</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="FAQS.html">FAQs</a></li>
+            </ul>
+        </div>
+        <div class="four">
+            <h3>Copyright © 2017 <br/>
+                VNPT Technologies Inc.</h3>
+            <h3>Một sản phẩm của tập đoàn VNPT</h3>
+        </div>
+    </div>
+</div> <script type="text/javascript" src="./assets/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/swiper/dist/js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="./assets/libary/OwlCarousel/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/wow/dist/wow.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="./assets/scripts/main.js"></script>
+
+    <script>
+        jQuery(document).ready(function($){
+            $(".js__select__menu").selectmenu({
+                classes: {
+                    "ui-selectmenu-menu" : "istest"
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
+

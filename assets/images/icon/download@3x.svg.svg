@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="59px" viewBox="0 0 68 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/download@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="130.687965%" id="linearGradient-1">
+            <stop stop-color="#0068F2" offset="0%"></stop>
+            <stop stop-color="#0F4098" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gioithieu_Huongdanmothe" transform="translate(-879.000000, -994.000000)">
+            <g id="mothe-ungdungdidong" transform="translate(114.000000, 987.000000)">
+                <g id="process" transform="translate(584.000000, 0.000000)">
+                    <g id="icon/download" transform="translate(182.000000, 8.000000)">
+                        <g id="Page-1">
+                            <path d="M43.7077091,43.0190621 L50.2853455,43.0190621 C53.0338909,43.0190621 55.7191636,42.2797223 58.0493455,40.8796252 C62.7102545,38.1104214 65.6049818,32.9809748 65.6049818,27.4907126 C65.6049818,18.9307515 58.7338909,11.9678971 50.2853455,11.9678971 L50.0000727,11.9678971 L49.8697091,11.6978388 C47.3878909,4.8672466 40.8997091,0.276809709 33.7264364,0.276809709 C26.0922545,0.276809709 19.2931636,5.46989709 17.1986182,12.907567 L17.0900727,13.2966058 L16.7066182,13.1958874 C16.1813455,13.0608583 15.6020727,12.9905767 14.9862545,12.9905767 C11.1702545,12.9905767 8.07152727,16.0220913 7.93025455,19.8897903 L7.9188,20.1637223 L7.6668,20.2594602 C3.24534545,22.0021107 0.272618182,26.411033 0.272618182,31.2361107 C0.272618182,37.7346641 5.48116364,43.0190621 11.8837091,43.0190621 L22.1698909,43.0190621" id="Stroke-1" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linejoin="round"></path>
+                            <path d="M50.2848545,18.1307592 C55.3826727,18.1307592 59.5297636,22.3299437 59.5297636,27.4903806 C59.5297636,30.8008078 57.7864909,33.8931961 54.9795818,35.5611379 C53.5608545,36.4133709 51.9463091,36.8555359 50.2848545,36.8555359 L43.8354,36.8555359" id="Stroke-3" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linejoin="round"></path>
+                            <path d="M27.8181818,36.0642874 L27.8181818,51.6441029" id="Stroke-5" stroke="#FB7020" stroke-width="2"></path>
+                            <path d="M37.6363636,51.6442689 L37.6363636,36.0644534" id="Stroke-7" stroke="#FB7020" stroke-width="2"></path>
+                            <polyline id="Stroke-9" stroke="#FB7020" stroke-width="2" stroke-linecap="round" points="41.6587636 47.6678272 32.9385818 56.5150019 24.2184 47.6678272"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

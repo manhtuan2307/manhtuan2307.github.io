@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thông tin hội viên</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=vietnamese" rel="stylesheet"> 
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> 
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/swiper/dist/css/swiper.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/animate.css/animate.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/libary/OwlCarousel/css/owl.carousel.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+    </head>
+    <body>
+        <div class="header">
+    <ul class="menu-one">
+        <li class="sub_navigation--user">
+            <a id="user-head--toggle" href="javascript:void(0);">
+                <div class="name__user">Xin chào, <span>Hoàng</span></div>
+                <div class="avatar__user">
+                    <img src="./assets/images/home/profile-picture.png" />
+                    <span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                </div>
+            </a>
+            <ul id="user-head" class="user-head" style="display: none">
+                <li>
+                    <a href="quan-ly-tai-khoan--thong-tin-hoi-vien.html">
+                        <span>Thông tin hội viên</span>
+                        <i class="fa fa-info-circle"></i>
+                    </a>
+                </li>
+                <!-- <li> -->
+                    <!-- <a href="#"> -->
+                        <!-- <span>Chỉnh sửa thông tin</span> -->
+                        <!-- <i class="fa fa-edit"></i> -->
+                    <!-- </a> -->
+                <!-- </li> -->
+				<li>
+                    <a href="#">
+                        <span>Thanh toán</span>
+                        <i class="fa fa-edit"></i>
+                    </a>
+                </li>
+				<li>
+                    <a href="#">
+                        <span>Đổi điểm</span>
+                        <i class="fa fa-edit"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Đăng xuất</span>
+                        <i class="fa fa-sign-in"></i>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="lien-he.html">Liên hệ</a></li>
+        <li><a href="FAQS.html">FAQs</a></li>
+        <li><a href="#">VIE</a></li>
+    </ul>
+    <div class="deskop">
+        <ul class="menu-two">
+            <li class="left">
+                <a href="index.html">
+                    <img src="./assets/images2/home/logo.png" />
+                </a>
+            </li>
+            <li class="right">
+                <ul class="main-menu">
+                    <!--<li  class="is--active"><a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">VNP PLUS của tôi</a></li>-->
+					
+                    <li><a href="gioi-thieu--ve-the-vpoint.html">Giới thiệu</a></li>
+                    <li><a href="tin-tuc--vpoint.html">Tin tức</a></li>
+                    <!--<li><a href="doi-tac.html">Đối tác</a></li>-->
+                    <!-- <li><a href="#">VNP Plus</a></li> -->
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="mobile">
+        <div class="top">
+            <div class="logo">
+                <a href="index.html"><img src="./assets/images2/home/logo.png" /> </a>
+            </div>
+            <div class="humbuger">
+                <h3>Menu</h3>
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+        <ul class="main-menu">
+            <li><a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">VNP PLUS của tôi</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Ưu đãi</a></li>
+            <li><a href="#">Tin tức</a></li>
+            <li><a href="doi-tac.html">Đối tác</a></li>
+            <li><a href="#">VNP Plus</a></li>
+            <li class="addtend"><a href="#"><i class="fa fa-credit-card" aria-hidden="true"></i>Tham gia VPoint</a></li>
+            <li class="login"><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Đăng nhập</a></li>
+        </ul>
+    </div>
+</div>
+
+        <div class="main">
+            
+    
+    
+
+    
+    
+
+    
+
+    
+
+<div class="page__banner" style="background-image: url('./assets/images/home/background2.png');">
+    <div class="page__banner--link">
+        <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Trang chủ</a>
+        <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+        <a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">VNP PLUS của tôi</a>
+    </div>
+
+    <ul class="tab_menu--child">
+        <span class="js-line-active"></span>
+        
+        <li class="is--active2"><a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">Thông tin điểm</a></li>
+		<li class="is--active2"><a href="vpoint-cua-toi--thong-tin--cap-nhat-hang.html">Thông tin hạng</a></li>
+        <li class="is--active2"><a href="vpoint-cua-toi--thong-tin--cap-nhat-the.html">Thông tin thẻ</a></li>
+        <li class="is--active"><a href="quan-ly-tai-khoan--thong-tin-hoi-vien.html">Thông tin tài khoản</a></li>
+        
+    </ul>
+
+    <div class="tab__item-mobile">
+        <div class="tab-category">
+            Title active
+        </div>
+        <ul class="select-tab">
+            
+            <li>
+                <a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">Thông tin điểm</a>
+            </li>
+            
+            <li>
+                <a href="quan-ly-tai-khoan--thong-tin-hoi-vien.html">Thông tin tài khoản</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+    
+    
+    <div class="ve-vpt-main-wrap background-graylight">
+        <div class="ve-vpt-main-content container-col-10 clearfix">
+            
+            <div class="grid10-col-2">
+
+                
+                
+
+      <div class="ve-vpt-sidebar posr">
+
+        
+        <a href="quan-ly-tai-khoan--thong-tin-hoi-vien.html" class="ve-vpt-sidebar__item is--active">
+            <i class="ve-vpt-sidebar__icon fa fa-info-circle" aria-hidden="true"></i>
+            <div class="ve-vpt-sidebar__label">Thông tin hội viên</div>
+        </a>
+        
+        <a href="quan-ly-tai-khoan--sua-thong-tin-hoi-vien.html" class="ve-vpt-sidebar__item ">
+            <i class="ve-vpt-sidebar__icon fa fa-pencil-square-o" aria-hidden="true"></i>
+            <div class="ve-vpt-sidebar__label">Chỉnh sửa thông tin</div>
+        </a>
+        
+        <!-- <a href="quan-ly-tai-khoan--dang-ky-sms.html" class="ve-vpt-sidebar__item "> -->
+            <!-- <i class="ve-vpt-sidebar__icon fa fa-comments-o" aria-hidden="true"></i> -->
+            <!-- <div class="ve-vpt-sidebar__label">Đăng ký SMS</div> -->
+        <!-- </a> -->
+        
+        <!-- <a href="quan-ly-tai-khoan--yeu-cau-cap-the.html" class="ve-vpt-sidebar__item "> -->
+            <!-- <i class="ve-vpt-sidebar__icon fa fa-credit-card" aria-hidden="true"></i> -->
+            <!-- <div class="ve-vpt-sidebar__label">Yêu cầu cấp thẻ</div> -->
+        <!-- </a> -->
+        
+        <a href="quan-ly-tai-khoan--doi-mat-khau.html" class="ve-vpt-sidebar__item ">
+            <i class="ve-vpt-sidebar__icon fa fa-key" aria-hidden="true"></i>
+            <div class="ve-vpt-sidebar__label">Đổi mật khẩu</div>
+        </a>
+        
+        <a href="quan-ly-tai-khoan--huy-hoi-vien.html" class="ve-vpt-sidebar__item ">
+            <i class="ve-vpt-sidebar__icon fa fa-times" aria-hidden="true"></i>
+            <div class="ve-vpt-sidebar__label">Huỷ hội viên</div>
+        </a>
+        
+
+    </div>
+
+            </div>
+            <div class="grid10-col-6">
+                <div class="tttk-main background-white">
+                    <table class="tttk-table">
+                        <tr>
+                            <td class="col1">
+                                <div class="tttk__avatar"><img src="./assets/images/quan-ly-tai-khoan/user-picture.png" alt="Nguyễn Minh Hoàng"></div>
+                            </td>
+                            <td class="col2">
+                                <div class="tttk__headname">
+                                    <p class="name ttu fw7 colo-blue-bold">Nguyễn Minh Hoàng</p>
+                                    <p class="level colo-blue-bold">Nhân viên văn phòng</p>
+                                    <p class="address fw7 colo-blue-bold">Số 1 Lương Yên, Bạch Đằng, Hai Bà Trưng, Hà Nội</p>
+                                </div>
+                            </td>
+                            <td class="col3 vat tar">
+                                <a href="quan-ly-tai-khoan--sua-thong-tin-hoi-vien.html" class="btn-default--small btn-orange btn-bg-transparent"><i class="fa fa-edit icon-left"></i>Chỉnh sửa</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col1">Tên đăng nhập</td>
+                            <td class="col2" colspan="2"><span class="fw7 color-blue-bold">hoangnm</span></td>
+                        </tr>
+						<tr>
+                            <td class="col1">Mã hội viên</td>
+                            <td class="col2" colspan="2"><span class="fw7 color-blue-bold">HV_123456789</span></td>
+                        </tr>						
+                        <tr>
+                            <td class="col1">Số thẻ</td>
+                            <td class="col2" colspan="2"><span class="fw7 color-blue-bold">123456789</span></td>
+                        </tr>
+                        <tr>
+                            <td class="col1">Năm sinh</td>
+                            <td class="col2" colspan="2"><span class="fw7 color-blue-bold">28/12/1990</span></td>
+                        </tr>
+                        <tr>
+                            <td class="col1">Số CMTND</td>
+                            <td class="col2" colspan="2"><span class="fw7 color-blue-bold">013007293</span></td>
+                        </tr>
+                        <tr>
+                            <td class="col1">Số điện thoại</td>
+                            <td class="col2" colspan="2"><span class="fw7 color-blue-bold">0888 66 88 66</span></td>
+                        </tr>
+						<tr>
+                            <td class="col1">Email</td>
+                            <td class="col2" colspan="2"><span class="fw7 color-blue-bold">nguyenvana@vnpt.vn</span></td>
+                        </tr>
+						<tr>
+                            <td class="col1">Tỉnh/Thành phố</td>
+                            <td class="col2" colspan="2"><span class="fw7 color-blue-bold">nguyenvana@vnpt.vn</span></td>
+                        </tr>
+                        <tr>
+                            <td class="col1">Quốc tịch</td>
+                            <td class="col2" colspan="2"><span class="fw7 color-blue-bold">Việt Nam</span></td>
+                        </tr>
+                        <tr>
+                            <td class="col1" colspan="3">
+                                <a href="#">
+                                    <i class="fa fa-plus-square-o color-blue"></i>
+                                    <span class="color-blue">Thêm email của bạn</span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col1" colspan="3">
+                                <a href="#">
+                                    <i class="fa fa-plus-square-o color-blue"></i>
+                                    <span class="color-blue">Thêm dịch vụ sử dụng của bạn</span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="show-devide-768">
+                            <td class="col1" colspan="3">
+                                <a href="#" class="btn-default btn-orange btn-bg-transparent"><i class="fa fa-edit"></i>Chỉnh sửa</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="grid10-col-2">
+                <div class="advertisement">
+    <div class="advertisement__item">
+        <img src="./assets/images/ve-vpoint/advertisement1.png" alt="#">
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+
+        <div class="footer-top">
+    <div class="right">
+        <a href="#" class="btn"><i class="fa fa-credit-card" aria-hidden="true"></i>Tham gia VPoint</a>
+        <p>hoặc tải ứng dụng từ</p>
+        <a href="#" class="share-btn"><img src="./assets/images/home/ggplay.png" /></a>
+        <a href="#" class="share-btn share-btn-last"><img src="./assets/images/home/app_store.png" /></a>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="footer">
+    <div class="footer-bottom">
+        <div class="one">
+            <div class="logo">
+                <a href="#">
+                    <img src="./assets/images/home/logo-white.png" />
+                </a>
+            </div>
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="two">
+            <ul>
+                <li><a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">VNP PLUS của tôi</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Các đối tác</a></li>
+                <li><a href="#">VNP Plus</a></li>
+            </ul>
+        </div>
+        <div class="three">
+            <ul>
+                <li><a href="#">Chính sách Vpoint</a></li>
+                <li><a href="#">Điều khoản sử dụng</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="FAQS.html">FAQs</a></li>
+            </ul>
+        </div>
+        <div class="four">
+            <h3>Copyright © 2017 <br/>
+                VNPT Technologies Inc.</h3>
+            <h3>Một sản phẩm của tập đoàn VNPT</h3>
+        </div>
+    </div>
+</div>
+        <script type="text/javascript" src="./assets/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/swiper/dist/js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="./assets/libary/OwlCarousel/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/wow/dist/wow.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="./assets/scripts/main.js"></script>
+
+        
+
+    </body>
+</html>
+
+

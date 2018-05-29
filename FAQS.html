@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FAQs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=vietnamese" rel="stylesheet"> 
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> 
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/swiper/dist/css/swiper.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/animate.css/animate.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/libary/OwlCarousel/css/owl.carousel.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+</head>
+
+<body>
+    <div class="header">
+    <ul class="menu-one">
+        <li class="sub_navigation--user">
+            <a id="user-head--toggle" href="javascript:void(0);">
+                <div class="name__user">Xin chào, <span>Hoàng</span></div>
+                <div class="avatar__user">
+                    <img src="./assets/images/home/profile-picture.png" />
+                    <span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                </div>
+            </a>
+            <ul id="user-head" class="user-head" style="display: none">
+                <li>
+                    <a href="#">
+                        <span>Thông tin hội viên</span>
+                        <i class="fa fa-info-circle"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Chỉnh sửa thông tin</span>
+                        <i class="fa fa-edit"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Đăng xuất</span>
+                        <i class="fa fa-sign-in"></i>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="lien-he.html">Liên hệ</a></li>
+        <li><a href="FAQS.html">FAQs</a></li>
+        <li><a href="#">VIE</a></li>
+    </ul>
+    <div class="deskop">
+        <ul class="menu-two">
+            <li class="left">
+                <a href="index.html">
+                    <img src="./assets/images2/home/logo.png" />
+                </a>
+            </li>
+            <li class="right">
+                <ul class="main-menu">
+                    <!--<li><a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">VNP PLUS của tôi</a></li>-->
+					<li><a href="tin-tuc--uu-dai.html">Quà tặng</a></li>
+					<li><a href="tin-tuc--uu-dai-doi-diem.html">Đổi điểm</a></li>
+					<li><a href="tin-tuc--uu-dai-uu-dai.html">Ưu đãi</a></li>
+					<li><a href="https://v-point.vn">Vpoint</a></li>
+                    <li><a href="gioi-thieu--ve-the-vpoint.html">Giới thiệu</a></li>
+                    <li><a href="tin-tuc--vpoint.html">Tin tức</a></li>
+                    <!-- <li><a href="doi-tac.html">Đối tác</a></li> -->
+                    <!-- <li><a href="#">VNP Plus</a></li> -->
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="mobile">
+        <div class="top">
+            <div class="logo">
+                <a href="index.html"><img src="./assets/images2/home/logo.png" /> </a>
+            </div>
+            <div class="humbuger">
+                <h3>Menu</h3>
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+        <ul class="main-menu">
+            <!--<li><a href="#">VNP PLUS của tôi</a></li>-->
+			<li><a href="tin-tuc--uu-dai.html">Quà tặng</a></li>    
+			<li><a href="tin-tuc--uu-dai-doi-diem.html">Đổi điểm</a></li>    
+			<li><a href="tin-tuc--uu-dai-uu-dai.html">Ưu đãi</a></li>    
+			<li><a href="https://v-point.vn">Vpoint</a></li> 
+            <li><a href="#">Giới thiệu</a></li>
+            <!--<li><a href="#">Ưu đãi</a></li>-->
+            <li><a href="#">Tin tức</a></li>
+            <!--<li><a href="doi-tac.html">Đối tác</a></li>
+            <li><a href="#">VNP Plus</a></li>-->
+            <li class="addtend"><a href="#"><i class="fa fa-credit-card" aria-hidden="true"></i>Đăng ký</a></li>
+            <li class="login"><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Đăng nhập</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="main">
+        <div class="page__banner" style="background-image: url(./assets/images/home/background2.png)">
+            <div class="page__banner--link">
+                <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Trang chủ</a>
+                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                <a href="#">FAQs</a>
+            </div>
+            <ul class="tab_menu--faq">
+                <li><a href="#">Câu hỏi thường gặp</a></li>
+            </ul>
+        </div>
+        <div class="faqs__content">
+            <div class="faqs__list">
+                <div class="faq__item panel-group" id="accordion">
+                    <div class="panel">
+                        <div class="faq-heading">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                <div class="faq-heading--title">
+                                    <div class="faq__number">1 -</div>
+                                    <div class="faq__question">
+                                        Những ai được đăng ký mở Thẻ VNP Plus?
+                                    </div>
+                                </div>
+                                <div class="icon-minus"></div>
+                            </a>
+                        </div>
+                        <div id="collapse1" class="faq__content panel-collapse collapse">
+                            <div class="faq__content--text">
+                                Nếu là thành viên của VinaPhone Plus, bạn sẽ có sẵn tài khoản tại VNP Plus. Chúng tôi đã gửi mã mật khẩu để truy cập tài khoản. Tuy nhiên, bạn cần hoàn thiện thông tin tài khoản trên My page hoặc ứng dụng điện thoại và chọn đăng ký gửi thẻ về địa chỉ mà bạn có thể nhận thẻ. Hoặc đơn giản hơn, sau khi điền đủ thông tin, bạn có thể tải ứng dụng điện thoại và sử dụng App này thay cho thẻ vật lý.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="faq-heading">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                <div class="faq-heading--title">
+                                    <div class="faq__number">2 -</div>
+                                    <div class="faq__question">
+                                        Có mấy hình thức thẻ VNP Plus?
+                                    </div>
+                                </div>
+                                <div class="icon-minus"></div>
+                            </a>
+                        </div>
+                        <div id="collapse2" class="faq__content panel-collapse collapse">
+                            <div class="faq__content--text">
+                                Nếu là thành viên của VinaPhone Plus, bạn sẽ có sẵn tài khoản tại VNP Plus. Chúng tôi đã gửi mã mật khẩu để truy cập tài khoản. Tuy nhiên, bạn cần hoàn thiện thông tin tài khoản trên My page hoặc ứng dụng điện thoại và chọn đăng ký gửi thẻ về địa chỉ mà bạn có thể nhận thẻ. Hoặc đơn giản hơn, sau khi điền đủ thông tin, bạn có thể tải ứng dụng điện thoại và sử dụng App này thay cho thẻ vật lý.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="faq-heading">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                <div class="faq-heading--title">
+                                    <div class="faq__number">3 -</div>
+                                    <div class="faq__question">
+                                        Có gì khác biệt nếu tôi là thành viên của VinaPhone Plus không?
+                                    </div>
+                                </div>
+                                <div class="icon-minus"></div>
+                            </a>
+                        </div>
+                        <div id="collapse3" class="faq__content panel-collapse collapse">
+                            <div class="faq__content--text">
+                                Nếu là thành viên của VinaPhone Plus, bạn sẽ có sẵn tài khoản tại VNP Plus. Chúng tôi đã gửi mã mật khẩu để truy cập tài khoản. Tuy nhiên, bạn cần hoàn thiện thông tin tài khoản trên My page hoặc ứng dụng điện thoại và chọn đăng ký gửi thẻ về địa chỉ mà bạn có thể nhận thẻ. Hoặc đơn giản hơn, sau khi điền đủ thông tin, bạn có thể tải ứng dụng điện thoại và sử dụng App này thay cho thẻ vật lý.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="faq-heading">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                <div class="faq-heading--title">
+                                    <div class="faq__number">4 -</div>
+                                    <div class="faq__question">
+                                        Asperger S Syndrome Is There Real Cure For It
+                                    </div>
+                                </div>
+                                <div class="icon-minus"></div>
+                            </a>
+                        </div>
+                        <div id="collapse4" class="faq__content panel-collapse collapse">
+                            <div class="faq__content--text">
+                                Nếu là thành viên của VinaPhone Plus, bạn sẽ có sẵn tài khoản tại VNP Plus. Chúng tôi đã gửi mã mật khẩu để truy cập tài khoản. Tuy nhiên, bạn cần hoàn thiện thông tin tài khoản trên My page hoặc ứng dụng điện thoại và chọn đăng ký gửi thẻ về địa chỉ mà bạn có thể nhận thẻ. Hoặc đơn giản hơn, sau khi điền đủ thông tin, bạn có thể tải ứng dụng điện thoại và sử dụng App này thay cho thẻ vật lý.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="faq-heading">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                                <div class="faq-heading--title">
+                                    <div class="faq__number">5 -</div>
+                                    <div class="faq__question">
+                                        Sensible Beauty Tips For Enhancing Your Appearance
+                                    </div>
+                                </div>
+                                <div class="icon-minus"></div>
+                            </a>
+                        </div>
+                        <div id="collapse5" class="faq__content panel-collapse collapse">
+                            <div class="faq__content--text">
+                                Nếu là thành viên của VinaPhone Plus, bạn sẽ có sẵn tài khoản tại VNP Plus. Chúng tôi đã gửi mã mật khẩu để truy cập tài khoản. Tuy nhiên, bạn cần hoàn thiện thông tin tài khoản trên My page hoặc ứng dụng điện thoại và chọn đăng ký gửi thẻ về địa chỉ mà bạn có thể nhận thẻ. Hoặc đơn giản hơn, sau khi điền đủ thông tin, bạn có thể tải ứng dụng điện thoại và sử dụng App này thay cho thẻ vật lý.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="faq__advertisement">
+                <img src="./assets/images/ve-vpoint/Screenshot-2017-07-18-16.56.57.png">
+            </div>
+        </div>
+    </div>
+    <div class="footer-top">
+    <div class="right">
+        <a href="#" class="btn"><i class="fa fa-credit-card" aria-hidden="true"></i>Đăng ký</a>
+        <p>hoặc tải ứng dụng từ</p>
+        <a href="#" class="share-btn"><img src="./assets/images/home/ggplay.png" /></a>
+        <a href="#" class="share-btn share-btn-last"><img src="./assets/images/home/app_store.png" /></a>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="footer">
+    <div class="footer-bottom">
+        <div class="one">
+            <div class="logo">
+                <a href="#">
+                    <img src="./assets/images/home/logo-white.png" />
+                </a>
+            </div>
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="two">
+            <ul>
+                <li><a href="#">VNP PLUS của tôi</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Các đối tác</a></li>
+                <li><a href="#">VNP Plus</a></li>
+            </ul>
+        </div>
+        <div class="three">
+            <ul>
+                <li><a href="#">Chính sách VNP Plus</a></li>
+                <li><a href="#">Điều khoản sử dụng</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="FAQS.html">FAQs</a></li>
+            </ul>
+        </div>
+        <div class="four">
+            <h3>Copyright © 2017 <br/>
+                VNPT Technologies Inc.</h3>
+            <h3>Một sản phẩm của tập đoàn VNPT</h3>
+        </div>
+    </div>
+</div> <script type="text/javascript" src="./assets/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/swiper/dist/js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="./assets/libary/OwlCarousel/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/wow/dist/wow.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="./assets/scripts/main.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $(".faq__item .panel .faq-heading").click(function() {
+            if ($(this).hasClass('change__icon-minus')) {
+                $(this).removeClass('change__icon-minus');
+            } else {
+                $(".faq__item .panel .faq-heading").removeClass('change__icon-minus');
+                $(this).addClass('change__icon-minus');
+            };
+        });
+    });
+    </script>
+</body>
+
+</html>

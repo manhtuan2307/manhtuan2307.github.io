@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="70px" viewBox="0 0 55 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dangnhap@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-53.0848681%" y1="-7738.29531%" x2="692.446955%" y2="4022.25156%" id="linearGradient-1">
+            <stop stop-color="#0068F2" offset="0%"></stop>
+            <stop stop-color="#0F4098" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#0068F2" offset="0%"></stop>
+            <stop stop-color="#0F4098" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gioithieu_Huongdansudung" transform="translate(-779.000000, -561.000000)">
+            <g id="thanhtoantaiquay" transform="translate(0.000000, 220.000000)">
+                <g id="ungdungdienthoai" transform="translate(734.000000, 115.000000)">
+                    <g id="process" transform="translate(1.000000, 227.000000)">
+                        <g id="icon/dangnhap" transform="translate(45.000000, 0.000000)">
+                            <g stroke-width="1" id="icon/dangky">
+                                <g stroke-width="2">
+                                    <path d="M10.9126454,44.9677419 L3.54783093,44.9677419" id="Stroke-1" stroke="url(#linearGradient-1)"></path>
+                                    <path d="M29.6286938,5.48387097 L3.54777629,5.48387097" id="Stroke-2" stroke="url(#linearGradient-1)"></path>
+                                    <g id="Group-33" transform="translate(0.000000, 0.024677)">
+                                        <path d="M10.912099,54.1692935 L4.35703711,54.1692935 C2.10153196,54.1692935 0.273305155,52.3338419 0.273305155,50.0701 L0.273305155,4.34832581 C0.273305155,2.08458387 2.10153196,0.249680645 4.35703711,0.249680645 L28.8184495,0.249680645 C31.0739546,0.249680645 32.9027278,2.08458387 32.9027278,4.34832581 L32.9027278,38.1136161" id="Stroke-3" stroke="url(#linearGradient-1)"></path>
+                                        <path d="M13.3543062,2.74193548 L19.821399,2.74193548" id="Stroke-5" stroke="url(#linearGradient-1)"></path>
+                                        <path d="M52.8743299,63.6129032 L18.282268,63.6129032" id="Stroke-7" stroke="url(#linearGradient-1)" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M19.3929186,43.120171 C19.3929186,44.3315581 18.4143309,45.313171 17.2073515,45.313171 C16.0009186,45.313171 15.0223309,44.3315581 15.0223309,43.120171 C15.0223309,41.9087839 16.0009186,40.927171 17.2073515,40.927171 C18.4143309,40.927171 19.3929186,41.9087839 19.3929186,43.120171 Z" id="Stroke-9" stroke="#FB7020" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M21.8633742,45.0995194 C22.1474979,45.234971 22.4644052,45.3133903 22.7993433,45.3133903 C24.0063227,45.3133903 24.9849103,44.3317774 24.9849103,43.1203903 C24.9849103,41.9090032 24.0063227,40.9273903 22.7993433,40.9273903 C22.4644052,40.9273903 22.1474979,41.0052613 21.8633742,41.1407129" id="Stroke-11" stroke="#FB7020" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M14.9342526,54.2903226 L18.9103454,54.2903226" id="Stroke-13" stroke="url(#linearGradient-1)" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M22.4583402,54.2903226 L26.434433,54.2903226" id="Stroke-15" stroke="url(#linearGradient-1)" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M29.9818814,54.2903226 L33.9585206,54.2903226" id="Stroke-17" stroke="url(#linearGradient-1)" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M37.5060237,54.2903226 L41.4821165,54.2903226" id="Stroke-19" stroke="url(#linearGradient-1)" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M42.1529763,59.7806097 L14.2640485,59.7806097 C12.4128732,59.7806097 10.9124814,58.2747387 10.9124814,56.4168032 L10.9124814,41.4770935 C10.9124814,39.6191581 12.4128732,38.1132871 14.2640485,38.1132871 L42.1529763,38.1132871 C44.0036052,38.1132871 45.5045433,39.6191581 45.5045433,41.4770935 L45.5045433,56.4168032 C45.5045433,58.2747387 44.0036052,59.7806097 42.1529763,59.7806097 Z" id="Stroke-21" stroke="url(#linearGradient-1)" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M45.504434,45.5102613 L50.5509082,45.5102613 C51.8338361,45.5102613 52.874166,46.5538419 52.874166,47.8420032 L52.874166,64.8458419 C52.874166,66.1334548 51.8338361,67.1775839 50.5509082,67.1775839 L20.6059082,67.1775839 C19.322434,67.1775839 18.2826505,66.1334548 18.2826505,64.8458419 L18.2826505,59.7803903" id="Stroke-23" stroke="url(#linearGradient-1)" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M40.2374361,45.313171 L36.8361474,45.313171 C36.1487866,45.313171 35.5909206,44.7538161 35.5909206,44.0639452 L35.5909206,42.1763968 C35.5909206,41.4865258 36.1487866,40.927171 36.8361474,40.927171 L40.2374361,40.927171 C40.9247969,40.927171 41.4821165,41.4865258 41.4821165,42.1763968 L41.4821165,44.0639452 C41.4821165,44.7538161 40.9247969,45.313171 40.2374361,45.313171 Z" id="Stroke-25" stroke="#FB7020" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </g>
+                            </g>
+                            <rect id="Rectangle-15" fill="url(#linearGradient-2)" x="7.89361702" y="21.5333333" width="2.25531915" height="2.26666667"></rect>
+                            <rect id="Rectangle-15-Copy-4" fill="url(#linearGradient-2)" x="11.2765957" y="26.0666667" width="2.25531915" height="2.26666667"></rect>
+                            <rect id="Rectangle-15-Copy" fill="url(#linearGradient-2)" x="11.2765957" y="21.5333333" width="2.25531915" height="2.26666667"></rect>
+                            <rect id="Rectangle-15-Copy-5" fill="url(#linearGradient-2)" x="14.6595745" y="26.0666667" width="2.25531915" height="2.26666667"></rect>
+                            <rect id="Rectangle-15-Copy-2" fill="url(#linearGradient-2)" x="14.6595745" y="21.5333333" width="2.25531915" height="2.26666667"></rect>
+                            <rect id="Rectangle-15-Copy-6" fill="url(#linearGradient-2)" x="18.0425532" y="26.0666667" width="2.25531915" height="2.26666667"></rect>
+                            <rect id="Rectangle-15-Copy-3" fill="url(#linearGradient-2)" x="18.0425532" y="21.5333333" width="2.25531915" height="2.26666667"></rect>
+                            <rect id="Rectangle-15-Copy-7" fill="url(#linearGradient-2)" x="21.4255319" y="26.0666667" width="2.25531915" height="2.26666667"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

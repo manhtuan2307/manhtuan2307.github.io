@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yêu cầu cấp thẻ</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=vietnamese" rel="stylesheet"> 
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> 
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/swiper/dist/css/swiper.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/bower_components/animate.css/animate.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/libary/OwlCarousel/css/owl.carousel.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+    </head>
+    <body>
+        <div class="header">
+    <ul class="menu-one">
+        <li class="sub_navigation--user">
+            <a id="user-head--toggle" href="javascript:void(0);">
+                <div class="name__user">Xin chào, <span>Hoàng</span></div>
+                <div class="avatar__user">
+                    <img src="./assets/images/home/profile-picture.png" />
+                    <span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                </div>
+            </a>
+            <ul id="user-head" class="user-head" style="display: none">
+                <li>
+                    <a href="#">
+                        <span>Thông tin hội viên</span>
+                        <i class="fa fa-info-circle"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Chỉnh sửa thông tin</span>
+                        <i class="fa fa-edit"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Đăng xuất</span>
+                        <i class="fa fa-sign-in"></i>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="lien-he.html">Liên hệ</a></li>
+        <li><a href="FAQS.html">FAQs</a></li>
+        <li><a href="#">VIE</a></li>
+    </ul>
+    <div class="deskop">
+        <ul class="menu-two">
+            <li class="left">
+                <a href="index.html">
+                    <img src="./assets/images2/home/logo.png" />
+                </a>
+            </li>
+            <li class="right">
+                <ul class="main-menu">
+                    <li class="is--active"><a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">VNP PLUS của tôi</a></li>
+                    <li><a href="gioi-thieu--ve-the-vpoint.html">Giới thiệu</a></li>
+                    <li ><a href="tin-tuc--vpoint.html">Tin tức</a></li>
+                    <li><a href="doi-tac.html">Đối tác</a></li>
+                    <!-- <li><a href="#">VNP Plus</a></li> -->
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="mobile">
+        <div class="top">
+            <div class="logo">
+                <a href="index.html"><img src="./assets/images2/home/logo.png" /> </a>
+            </div>
+            <div class="humbuger">
+                <h3>Menu</h3>
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+        <ul class="main-menu">
+            <li><a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">VNP PLUS của tôi</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Ưu đãi</a></li>
+            <li><a href="#">Tin tức</a></li>
+            <li><a href="doi-tac.html">Đối tác</a></li>
+            <li><a href="#">VNP Plus</a></li>
+            <li class="addtend"><a href="#"><i class="fa fa-credit-card" aria-hidden="true"></i>Tham gia VPoint</a></li>
+            <li class="login"><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Đăng nhập</a></li>
+        </ul>
+    </div>
+</div>
+
+        <div class="main">
+            
+    
+    
+    
+    
+
+    
+
+    
+
+<div class="page__banner" style="background-image: url('./assets/images/home/background2.png');">
+    <div class="page__banner--link">
+        <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Trang chủ</a>
+        <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+        <a href="#">Vpoint trong tôi</a>
+    </div>
+
+    <ul class="tab_menu--child">
+        <span class="js-line-active"></span>
+        
+        <li class="is--active2"><a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">Thông tin điểm</a></li>
+        <li class="is--active2"><a href="vpoint-cua-toi--thong-tin--cap-nhat-hang.html">Thông tin hạng</a></li>
+        <li class="is--active2"><a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">Thông tin thẻ</a></li>
+        <li class="is--active"><a href="quan-ly-tai-khoan--thong-tin-hoi-vien.html">Thông tin tài khoản</a></li>
+        
+    </ul>
+
+    <div class="tab__item-mobile">
+        <div class="tab-category">
+            Title active
+        </div>
+        <ul class="select-tab">
+            
+            <li>
+                <a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">Thông tin điểm</a>
+            </li>
+            
+            <li>
+                <a href="quan-ly-tai-khoan--thong-tin-hoi-vien.html">Thông tin tài khoản</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+    
+    
+    <div class="ve-vpt-main-wrap background-graylight">
+        <div class="ve-vpt-main-content container-col-10 clearfix">
+
+            <div class="grid10-col-2">
+
+                
+                
+                
+
+<div class="ve-vpt-sidebar posr">
+
+        
+        <a href="quan-ly-tai-khoan--thong-tin-hoi-vien.html" class="ve-vpt-sidebar__item">
+            <i class="ve-vpt-sidebar__icon fa fa-info-circle" aria-hidden="true"></i>
+            <div class="ve-vpt-sidebar__label">Thông tin hội viên</div>
+        </a>
+        
+        <a href="quan-ly-tai-khoan--sua-thong-tin-hoi-vien.html" class="ve-vpt-sidebar__item">
+            <i class="ve-vpt-sidebar__icon fa fa-pencil-square-o" aria-hidden="true"></i>
+            <div class="ve-vpt-sidebar__label">Chỉnh sửa thông tin</div>
+        </a>
+        
+        <!-- <a href="quan-ly-tai-khoan--dang-ky-sms.html" class="ve-vpt-sidebar__item "> -->
+            <!-- <i class="ve-vpt-sidebar__icon fa fa-comments-o" aria-hidden="true"></i> -->
+            <!-- <div class="ve-vpt-sidebar__label">Đăng ký SMS</div> -->
+        <!-- </a> -->
+        
+        <!-- <a href="quan-ly-tai-khoan--yeu-cau-cap-the.html" class="ve-vpt-sidebar__item "> -->
+            <!-- <i class="ve-vpt-sidebar__icon fa fa-credit-card" aria-hidden="true"></i> -->
+            <!-- <div class="ve-vpt-sidebar__label">Yêu cầu cấp thẻ</div> -->
+        <!-- </a> -->
+        
+        <a href="quan-ly-tai-khoan--doi-mat-khau.html" class="ve-vpt-sidebar__item  is--active">
+            <i class="ve-vpt-sidebar__icon fa fa-key" aria-hidden="true"></i>
+            <div class="ve-vpt-sidebar__label">Đổi mật khẩu</div>
+        </a>
+        
+        <a href="quan-ly-tai-khoan--huy-hoi-vien.html" class="ve-vpt-sidebar__item ">
+            <i class="ve-vpt-sidebar__icon fa fa-times" aria-hidden="true"></i>
+            <div class="ve-vpt-sidebar__label">Huỷ hội viên</div>
+        </a>
+        
+
+    </div>
+
+
+
+            </div>
+            <div class="grid10-col-6">
+                <div class="steps--wrap background-white">
+
+                    
+                    
+
+                    <div class="steps__head--status" data-step-total="3">
+                        
+
+    <div id="js-steps-head" class="swiper-container">
+        <div class="swiper-wrapper">
+
+            
+            <div class="swiper-slide">
+                <a href="javascript:void(0);" data-step-order="0" class="steps__head__item" data-step="0" data-step-status="is--active">
+                    <div class="icon">
+                        <i class="fa fa-keyboard-o"></i>
+                    </div>
+                    <div class="text">Nhập mật khẩu mới</div>
+                </a>
+            </div>
+            
+            <div class="swiper-slide">
+                <a href="javascript:void(0);" data-step-order="1" class="steps__head__item" data-step="0" data-step-status="is--unverified">
+                    <div class="icon">
+                        <i class="fa fa-lock"></i>
+                    </div>
+                    <div class="text">Xác nhận bảo mật</div>
+                </a>
+            </div>
+            
+            <div class="swiper-slide">
+                <a href="javascript:void(0);" data-step-order="2" class="steps__head__item" data-step="0" data-step-status="is--unverified">
+                    <div class="icon">
+                        <i class="fa fa-check"></i>
+                    </div>
+                    <div class="text">Hoàn thành</div>
+                </a>
+            </div>
+            
+
+        </div>
+    </div>
+
+
+                    </div>
+
+                    <div class="steps__main">
+                        <div id="js-steps" class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="step__main__item">
+    <div class="container-col-8">
+        <form class="dmk__form frm__signIn--content frm__forget--content" style="margin-top: 0; padding-bottom: 0px">
+            <div class="form-group">
+                <label class="frm__label">Mật khẩu hiện tại<span>*</span></label>
+                <input type="password" class="form-control frm__input" placeholder="Nhập mât khẩu hiện tại">
+            </div>
+            <div class="form-group">
+                <label class="frm__label">Mật khẩu mới <span>*</span></label>
+                <input type="password" class="form-control frm__input" placeholder="8 ký tự trở lên, chứa ít nhất 1 ký tự đặc biệt ">
+            </div>
+            <div class="form-group">
+                <label class="frm__label">Xác nhận mật khẩu <span>*</span></label>
+                <input type="password" class="form-control frm__input" placeholder="nhập lại mật khẩu của bạn">
+            </div>
+            <div class="tac"><a href="#" onClick="js_steps_details.slideTo(1);" class="btn-tang-diem-stp1 btn-default btn-blue">Tiếp tục <i class="fa fa-arrow-right"></i></a></div>
+        </form>
+    </div>
+</div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="step__main__item">
+    <div class="tang-diem--stp2">
+        <div class="c-label">Mã OTP</div>
+        <div class="c-excerpt"><i>Vui lòng nhập dãy OTP vừa được gửi đến số điện thoại đăng ký Vpoint của bạn để xác nhận tặng điểm.</i></div>
+        <br>
+        <div>
+            <div class="js-otp-wrap frm__group--inline">
+    <input type="text" class="input-otp form-control frm_input--item" placeholder="" value="1" maxlength="1">
+    <input type="text" class="input-otp form-control frm_input--item" placeholder="" value="9" maxlength="1">
+    <input type="text" class="input-otp form-control frm_input--item" placeholder="" value="7" maxlength="1">
+    <input type="text" class="input-otp form-control frm_input--item" placeholder="" maxlength="1">
+    <input type="text" class="input-otp form-control frm_input--item" placeholder="" maxlength="1">
+    <input type="text" class="input-otp form-control frm_input--item" placeholder="" maxlength="1">
+</div>
+        </div>
+        <div class="c-excerpt"><i>Chưa nhận được OPT <a href="#" style="color: #324B6D;"><b style="color: #324B6D;">Gửi lại mã mới</b></a></i></div>
+    </div>
+    <div class="tac"><a onClick="js_steps_details.slideTo(2);" href="#" class="btn-tang-diem-stp1 btn-default btn-blue"><i class="fa fa-check"></i>Xác nhận</a></div>
+</div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="step__main__item">
+    <div class="tang-diem--stp4 tac container-col-8">
+        <img src="./assets/images/dangky/success.png">
+        <div class="color-blue fw7" style="margin: 18px 0 30px 0;">
+            Đổi mật khẩu thành công!
+        </div>
+    </div>
+</div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+
+                </div>
+            </div>
+            <div class="grid10-col-2">
+                <div class="advertisement">
+    <div class="advertisement__item">
+        <img src="./assets/images/ve-vpoint/advertisement1.png" alt="#">
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+
+        <div class="footer-top">
+    <div class="right">
+        <a href="#" class="btn"><i class="fa fa-credit-card" aria-hidden="true"></i>Tham gia VPoint</a>
+        <p>hoặc tải ứng dụng từ</p>
+        <a href="#" class="share-btn"><img src="./assets/images/home/ggplay.png" /></a>
+        <a href="#" class="share-btn share-btn-last"><img src="./assets/images/home/app_store.png" /></a>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="footer">
+    <div class="footer-bottom">
+        <div class="one">
+            <div class="logo">
+                <a href="#">
+                    <img src="./assets/images/home/logo-white.png" />
+                </a>
+            </div>
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="two">
+            <ul>
+                <li><a href="vpoint-cua-toi--thong-tin--cap-nhat-diem.html">VNP PLUS của tôi</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Các đối tác</a></li>
+                <li><a href="#">VNP Plus</a></li>
+            </ul>
+        </div>
+        <div class="three">
+            <ul>
+                <li><a href="#">Chính sách Vpoint</a></li>
+                <li><a href="#">Điều khoản sử dụng</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="FAQS.html">FAQs</a></li>
+            </ul>
+        </div>
+        <div class="four">
+            <h3>Copyright © 2017 <br/>
+                VNPT Technologies Inc.</h3>
+            <h3>Một sản phẩm của tập đoàn VNPT</h3>
+        </div>
+    </div>
+</div>
+        <script type="text/javascript" src="./assets/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/swiper/dist/js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="./assets/libary/OwlCarousel/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="./assets/bower_components/wow/dist/wow.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="./assets/scripts/main.js"></script>
+
+            
+    <script>
+    var js_steps_head;
+    var js_steps_details;
+
+    jQuery(document).ready(function($) {
+        var stepsLenght = $('.steps__head--status').attr('data-step-total');
+
+        js_steps_head = new Swiper('#js-steps-head', {
+            slidesPerView: stepsLenght,
+            followFinger : false,
+            simulateTouch: false,
+            onlyExternal : true,
+            spaceBetween : 0,
+            breakpoints  : {
+                540: {
+                    slidesPerView: 1
+                }
+            }
+        });
+
+        js_steps_details = new Swiper('#js-steps', {
+            autoHeight        : true,
+            followFinger      : false,
+            simulateTouch     : false,
+            effect            : 'fade',
+            onlyExternal      : true,
+            onSlideChangeStart: function(swiper) {
+                $('.steps__head__item').eq(swiper.activeIndex).attr('data-step-status', 'is--active');
+
+                for (i = 0; i < swiper.activeIndex; i++) {
+                    $('.steps__head__item').eq(i).attr('data-step-status', 'is--verified');
+                }
+
+                for (i = swiper.activeIndex + 1; i < $('.steps__head__item').length; i++) {
+                    $('.steps__head__item').eq(i).attr('data-step-status', 'is--unverified');
+                }
+            },
+            onSlideChangeEnd: function(swiper) {
+                js_steps_details.update();
+            },
+            breakpoints: {
+                570: {
+                    onSlideChangeStart: function(swiper) {
+                        js_steps_head.slideTo(swiper.activeIndex);
+
+                        $('.steps__head__item').eq(swiper.activeIndex).attr('data-step-status', 'is--active');
+
+                        for (i = 0; i < swiper.activeIndex; i++) {
+                            $('.steps__head__item').eq(i).attr('data-step-status', 'is--verified');
+                        }
+
+                        for (i = swiper.activeIndex + 1; i < $('.steps__head__item').length; i++) {
+                            $('.steps__head__item').eq(i).attr('data-step-status', 'is--unverified');
+                        }
+                    }
+                }
+            }
+        });
+
+        $('.steps__head__item').click(function(event) {
+            event.preventDefault();
+
+            if ($(this).attr('data-step-status') === 'is--verified') {
+                var step = $(this).attr('data-step-order');
+                js_steps_details.slideTo(step);
+            }
+        });
+    });
+</script>
+
+    </body>
+</html>
+
+

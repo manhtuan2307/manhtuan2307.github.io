@@ -1,0 +1,312 @@
+    @import 
+"partials/fonts",
+"partials/reset",
+"partials/mixin",
+"partials/helper",
+"partials/default",
+"partials/buttons";
+@import "pages/home",
+"pages/dangnhap__dangky",
+"pages/gioi-thieu--thetichdiemdanang",
+"pages/ve-vpoint--thong-tin",
+"pages/doi-tac",
+"pages/faq",
+"pages/lien-he",
+"pages/tin-tuc",
+"pages/gioi-thieu",
+"pages/quan-ly-tai-khoan";
+
+/*style home*/
+
+body {
+    font-family: 'Roboto';
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.advertisement {}
+
+.advertisement__item {
+    margin-bottom: 30px;
+    >img {
+        width: 100%;
+    }
+}
+
+.steps--wrap {
+    position: relative;
+    margin-right: 30px;
+    padding: 0 0 45px;
+    @include mediaMaxWidth(768px) {
+        padding: 0;
+        margin-right: 0;
+        margin-bottom: 30px;
+        background-color: transparent;
+    }
+}
+
+.steps--wrap .steps__main .swiper-slide {
+    opacity: 0 !important;
+    @include transition(all .3s ease);
+    &-active {
+        opacity: 1 !important;
+    }
+}
+
+.steps__head--status {
+    width: 100%;
+    padding: 20px 0 23px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(#D9DEE5, 0.5);
+    @include transform(translateY(-25px));
+    @include mediaMaxWidth(570px) {
+        @include transform(translateY(0));
+    }
+    .swiper-container {
+        overflow: visible;
+    }
+}
+
+.steps__head__item {
+    display: block;
+    position: relative;
+    text-align: center;
+    .icon {
+        position: relative;
+        z-index: 1;
+        margin: 0 auto 21px;
+        @include flex;
+        @include alignCenter;
+        @include justifyCenter;
+        @include transition(all .3s ease);
+        &:before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 21px;
+            height: 21px;
+            border-radius: 50%;
+            border: 2px solid transparent;
+            @include transform(translate(-50%, -50%));
+            @include transition(all .3s ease);
+        }
+        i {
+            position: relative;
+            z-index: 10;
+        }
+    }
+    .text {
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 11px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 1px;
+        right: 1px;
+        border-top: 2px solid transparent;
+    }
+}
+
+.steps__head__item[data-step-status="is--unverified"] {
+    color: rgb(222, 226, 232);
+    &:before {
+        border-top: 2px solid rgb(222, 226, 232);
+    }
+    .icon {
+        font-size: 10px;
+        color: #fff;
+        &:before {
+            background-color: rgb(222, 226, 232);
+        }
+    }
+}
+
+.steps__head__item[data-step-status="is--active"] {
+    color: #FA7020;
+    &:before {
+        border-top: 2px solid #FA7020;
+    }
+    .icon {
+        font-size: 12px;
+        margin-bottom: 19px;
+        &:before {
+            width: 28px;
+            height: 28px;
+            border-color: #FA7020;
+            background-color: #fff;
+        }
+    }
+}
+
+.steps__head__item[data-step-status="is--verified"] {
+    color: #00396b;
+    &:before {
+        border-top: 2px solid #00396b;
+    }
+    .icon {
+        color: #00396b;
+        font-size: 12px;
+        margin-bottom: 19px;
+        &:before {
+            width: 28px;
+            height: 28px;
+            border-color: #00396b;
+            background-color: #fff;
+        }
+    }
+}
+
+.steps__main {
+    margin-top: -25px;
+    padding: 33px 30px 0;
+    @include mediaMaxWidth(570px) {
+        margin-top: 0;
+        padding: 33px 10px;
+    }
+    .the-content {
+        color: #63676E;
+        font-size: 13px;
+        line-height: 22px;
+        @include mediaMaxWidth(570px) {
+            text-align: justify;
+        }
+    }
+    .btn-tang-diem-stp1 {
+        margin-top: 40px;
+    }
+}
+
+
+
+.form-radio-group {
+    * {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+.radio-group {
+    margin-right: 3px;
+    position: relative;
+    span {
+        pointer-events: none;
+        position: relative;
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 1px solid #4B3C50;
+        @include transition(all .3s ease);
+        &:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0px;
+            height: 0px;
+            border-radius: 50%;
+            background-color: transparent;
+            @include transform(translate(-50%, -50%));
+            @include transition(all .3s ease);
+        }
+    }
+    input {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 14px;
+        height: 14px;
+        margin-left: 0 !important;
+        &:checked {
+            &+span:before {
+                width: 5px;
+                height: 5px;
+                background-color: #4B3C50;
+            }
+        }
+    }
+}
+
+.radio-label {
+    color: #4B3C50;
+    font-size: 13px;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+.input-autocomplete-group {
+    position: relative;
+}
+
+.buffer-result {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 100;
+    background-color: #fff;
+    min-width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.buffer-result__item {
+    display: block;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(#BDC5D1, 0.5);
+    cursor: pointer;
+    @include transition(all .2s ease);
+    &:hover {
+        background-color: rgba(#BDC5D1, .5);
+    }
+    opacity: 0.75;
+    color: #4B3C50;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.input-autocomplete__btn {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    opacity: 0.25;
+    color: #4B3C50;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.ui-autocomplete {
+    box-shadow: rgba(43, 70, 106, 0.15) 0px 5px 11px 0px;
+    border: 1px solid #E9ECF0 !important;
+    padding: 0 !important;
+
+    @include transform(translateY(-2px));
+}
+
+.ui-menu .ui-menu-item-wrapper {
+    position: relative;
+    padding: 0 18px !important;
+    white-space: nowrap;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+    color: #63676E;
+    border: 1px solid transparent !important;
+    @include transition(all .3s ease);
+}
+
+.ui-menu .ui-menu-item:hover .ui-menu-item-wrapper {
+    color: #fff;
+}
+
+
+.selectbox-overflow {
+    max-height: 300px;
+}
