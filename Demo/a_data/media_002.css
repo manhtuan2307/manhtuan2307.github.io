@@ -1,0 +1,42 @@
+/***************************************************************************************/
+/*
+/*		Author: AS Designing
+/*		Author URI: http://www.asdesigning.com
+/*		Theme URI: http://www.astemplates.com
+/*		
+/*		Note: Design for a width of 480px - Mobile (Landscape)
+/*
+/***************************************************************************************/
+
+@media (max-width: 480px) 
+{
+	.footer .footer-social li a i 
+	{
+		font-size: 36px;
+		height: 80px;
+		line-height: 76px;
+		width: 80px;
+	}
+	
+	.navbar-header
+	{
+		text-align: center;
+	}	
+	
+	.navbar-toggle,
+	.scrool-background .navbar-toggle
+	{
+		margin: 0 0 20px;
+	}
+	
+	#main-header 
+	{
+		padding-top: 200px;
+	}
+		
+	.carousel-caption 
+	{
+    	display: none;
+	}
+	
+}
